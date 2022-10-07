@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <!--This is my css section-->
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel='stylesheet' href='/Content/app.css' />
+
+</head>
+<body>
+<!--Nav Bar-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link"  href="/home"><i class="fa-solid fa-lg fa-house-laptop"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="/about"><i class="fa-sharp fa-solid fa-asterisk"></i> About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="/projects"><i class="fa-brands fa-product-hunt"></i> Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/services"><i class="fa-regular fa-gear"></i> Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact"><i class="fa-regular fa-phone"></i> Contact Me</a>
+        </li>
+        </ul>
+      </div>
+</nav>
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+  </div>
+  <br/>
+  <br/>
+  <div class="container">
+    <div class="page-header">
+        <h1> Hari Krishna Reddy Jetti </h1>
+    </div>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-md-9">
+            <br/>
+            <br/>
+            <p>
+                I am a Computer Programmer with 3 years of working experience, I am currently studying Artificial Intelligence in centennial college.
+             </p>
+            
+            <!-- <br /> -->
+            <!-- <small><i>*for more information about co-op program and its benefit, please <a href="employer_guide.pdf" download="Employer's Guide">click here</a> to download 'Employer's Guide' document.</i></small> -->
+        </div>
+        <div class="col-md-3">
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQEEdW28K49_7g/profile-displayphoto-shrink_200_200/0/1636491994155?e=1667433600&v=beta&t=oTqdlIMrhuefew0bldtIquLlCPzbsSG8pmZDbTIT5GQ" alt="image_1" width="300" height="250" />
+        </div>
+    </div>
+
+</main>
+
+<!--- Bottom nave-->
+<footer>
+  <nav class="navbar fixed-bottom navbar-dark bg-dark">
+    <h8 class="display-9 text-white">&copy; CopyRights 2022. All Rights Reserved.</h8>
+  </nav>
+
+
+</footer>  
+
+<!--This is my script section-->
+
+<script src="/jquery/dist/jquery.min.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/Scripts/app.js"></script>
+</body>
+</html>
+
